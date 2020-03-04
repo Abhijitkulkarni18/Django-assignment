@@ -3,12 +3,17 @@
 postgres set up:
 
 sudo su - postgres
+
 psql
+
 CREATE DATABASE assignment;
+
 CREATE USER abhijit WITH PASSWORD 'password';
 
 ALTER ROLE abhijit SET client_encoding TO 'utf8';
+
 ALTER ROLE abhijit SET default_transaction_isolation TO 'read committed';
+
 ALTER ROLE abhijit SET timezone TO 'UTC';
 
 GRANT ALL PRIVILEGES ON DATABASE assignment TO abhijit;
@@ -26,6 +31,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 
 python3 manage.py runserver
+
 
 
 
