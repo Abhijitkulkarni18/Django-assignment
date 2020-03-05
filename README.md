@@ -38,7 +38,11 @@ python3 manage.py runserver
 
 Postman Collection APIs:
 
+Postman Documentation link: https://documenter.getpostman.com/view/7497641/SzRuZXzJ?version=latest#a16d337d-92a7-405b-a844-f614b4997ef4
+
 Postman link : https://www.getpostman.com/collections/1d5d3a23b3236b24d1fd
+
+
 
 steps:
 1) signup to get jwt token 
